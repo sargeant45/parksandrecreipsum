@@ -10,25 +10,26 @@ btnFront.addEventListener( 'click', function( event ) {
 
   var w = btn.offsetWidth,
       h = btn.offsetHeight;
-	
+
   var directions = [
     { id: 'top', x: w/2, y: 0 },
     { id: 'right', x: w, y: h/2 },
     { id: 'bottom', x: w/2, y: h },
     { id: 'left', x: 0, y: h/2 }
   ];
-  
+
   directions.sort( function( a, b ) {
     return distance( mx, my, a.x, a.y ) - distance( mx, my, b.x, b.y );
   } );
-  
+
   btn.setAttribute( 'data-direction', directions.shift().id );
   btn.classList.add( 'is-open' );
 
 } );
 
-btnYes.addEventListener( 'click', function( event ) {	
+btnYes.addEventListener( 'click', function( event ) {
   btn.classList.remove( 'is-open' );
+  generateIpsum();
 } );
 
 btnNo.addEventListener( 'click', function( event ) {

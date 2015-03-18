@@ -187,3 +187,14 @@ body {
   background-size: 272px 272px;
   border-radius: 300px;
 }
+.icon {
+  width: 272px;
+  height: 272px;
+  margin-bottom: 40px;
+  margin-top: 5px;
+  display: block;
+  margin: 0 auto;
+  background: #F3F3F3;
+  background: url("http://vignette2.wikia.nocookie.net/parksandrecreation/images/2/2a/Season_3.jpg/revision/latest?cb=20111015211853") no-repeat;
+  background-size: 272px 272px;
+}
