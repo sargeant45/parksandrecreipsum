@@ -29,7 +29,6 @@ btnFront.addEventListener( 'click', function( event ) {
 
 btnYes.addEventListener( 'click', function( event ) {
   btn.classList.remove( 'is-open' );
-  generateIpsum();
 } );
 
 btnNo.addEventListener( 'click', function( event ) {

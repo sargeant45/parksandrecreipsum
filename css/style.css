@@ -198,3 +198,11 @@ body {
   background: url("http://vignette2.wikia.nocookie.net/parksandrecreation/images/2/2a/Season_3.jpg/revision/latest?cb=20111015211853") no-repeat;
   background-size: 272px 272px;
 }
+
+#ipsum {
+  -moz-user-select: text;
+ -khtml-user-select: text;
+ -webkit-user-select: text;
+ -ms-user-select: text;
+ user-select: text;
+}
